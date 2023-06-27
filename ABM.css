@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+  body{
+ padding: 10px;
+  background: #87CEEB;
+
+    margin-left:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+        .first {
+  width:150px;
+  height:60px;
+  margin-left:50%;
+ margin-top:0%;
+background-color:#ddd;
+padding:2px;
+border:1px solid black;
+border-radius:25px;
+
+
+    }
+    div.top {
+    overflow:hidden;
+    background-color:#333;
+
+    }
+    .top a{
+    float:left;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    .top a:hover{
+    background-color:#ddd;
+    color:black;
+    height:55.5px;
+    }
+    .top a.active{
+    background-color:#04AA6D;
+    color:white;
+    }
+    .Redu{
+    width:100%;
+    max-height:600px;
+    }
+    .cont {
+    position: relative;
+    text-align:center;
+    color:black;
+    }
+    .top-left {
+    position: absolute;
+   top:40px;
+
+    left: 16px;
+    }
+.center {
+   position: absolute;
+     top:200px;
+   margin-left:40%;
+   font-size:50px;
+   color:#11ee11;
+   font-weight: 1000;
+   font-family: georgia,  serif;
+   background-color:#ddd;
+   capacity:0;
+   }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #87CEEB;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sticky {
+
+float: right;
+color: tomato;
+}
+
+.text {
+width:100%;
+
+border:1px solid blue;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #87CEEB;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #000000;
+  margin-top: 20px;
+  width:100%
+}
+
+/* Style the footer navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the fotter links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+#clearfix0 {
+  overflow: auto;
+}
+#clearfix1 {
+  overflow: auto;
+}
+#clearfix2 {
+  overflow: auto;
+}
+#clearfix3 {
+  overflow: auto;
+}
+#clearfix4 {
+  overflow: auto;
+}
+
+#clearfix5 {
+  overflow: auto;
+}
+#clearfix6 {
+  overflow: auto;
+}
+#clearfix7 {
+  overflow: auto;
+}
